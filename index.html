@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Digimon TCG Checklist</title>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!--stylesheets-->
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/flairs.css" type="text/css" media="all" />
+
+  <!--scripts-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/flairs.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <!--change-->
+  <script type="text/javascript" src="js/bt1.js"></script>
+  <script type="text/javascript" src="js/bt2.js"></script>
+  <script type="text/javascript" src="js/bt3.js"></script>
+  <script type="text/javascript" src="js/bt4.js"></script>
+  <script type="text/javascript" src="js/bt5.js"></script>
+  <script type="text/javascript" src="js/bt6.js"></script>
+  <script type="text/javascript" src="js/st1.js"></script>
+  <script type="text/javascript" src="js/st2.js"></script>
+  <script type="text/javascript" src="js/st3.js"></script>
+  <script type="text/javascript" src="js/st4.js"></script>
+  <script type="text/javascript" src="js/st5.js"></script>
+  <script type="text/javascript" src="js/st6.js"></script>
+  <script type="text/javascript" src="js/st7.js"></script>
+  <script type="text/javascript" src="js/st8.js"></script>
+  <script type="text/javascript" src="js/promo.js"></script>
+
+  <!--meta-->
+  <meta charset="utf-8">
+  <meta name="author" content="BaqFish">
+  <meta name="description" content="Checklist for Digimon TCG">
+</head>
+
+<body>
+  <noscript>JavaScript is required to run this page.</noscript>
+
+  <div class="header"></div>
+
+  <!--change-->
+  <div id="bt1area">
+    <button type="button" class="collapsible" id="counterbt1"></button>
+    <div class="container2">
+        <div id="bt1"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="bt2area">
+    <button type="button" class="collapsible" id="counterbt2"></button>
+    <div class="container2">
+        <div id="bt2"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="bt3area">
+    <button type="button" class="collapsible" id="counterbt3"></button>
+    <div class="container2">
+        <div id="bt3"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="bt4area">
+    <button type="button" class="collapsible" id="counterbt4"></button>
+    <div class="container2">
+        <div id="bt4"></div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div id="bt5area">
+    <button type="button" class="collapsible" id="counterbt5"></button>
+    <div class="container2">
+        <div id="bt5"></div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div id="bt6area">
+    <button type="button" class="collapsible" id="counterbt6"></button>
+    <div class="container2">
+        <div id="bt6"></div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div id="st1area">
+    <button type="button" class="collapsible" id="counterst1"></button>
+    <div class="container2">
+        <div id="st1"></div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div id="st2area">
+    <button type="button" class="collapsible" id="counterst2"></button>
+    <div class="container2">
+        <div id="st2"></div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div id="st3area">
+    <button type="button" class="collapsible" id="counterst3"></button>
+    <div class="container2">
+        <div id="st3"></div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div id="st4area">
+    <button type="button" class="collapsible" id="counterst4"></button>
+    <div class="container2">
+        <div id="st4"></div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div id="st5area">
+    <button type="button" class="collapsible" id="counterst5"></button>
+    <div class="container2">
+        <div id="st5"></div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div id="st6area">
+    <button type="button" class="collapsible" id="counterst6"></button>
+    <div class="container2">
+        <div id="st6"></div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div id="st7area">
+    <button type="button" class="collapsible" id="counterst7"></button>
+    <div class="container2">
+        <div id="st7"></div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div id="st8area">
+    <button type="button" class="collapsible" id="counterst8"></button>
+    <div class="container2">
+        <div id="st8"></div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div id="promoarea">
+    <button type="button" class="collapsible" id="counterpromo"></button>
+    <div class="container2">
+        <div id="promo"></div>
+    </div>
+  </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+<footer>
+  <div style="color: black;">
+    2021 -
+    <script>
+      document.write(new Date().getFullYear());
+    </script>.
+    Original idea by <a style="color: black;" href="https://www.reddit.com/user/antonlabz/">antonlabz</a>.
+    Extended by BaqFish
+  </div>
+</footer>
+
+</html>
