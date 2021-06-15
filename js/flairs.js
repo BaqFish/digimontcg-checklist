@@ -38,7 +38,7 @@ loadPage = function () {
                 else {
                     var icon = document.createElement('img');
                     icon.setAttribute('class', categories[cat][4]);
-                    icon.setAttribute('id', categories[cat][0][0] + categories[cat][1][x]);
+                    icon.setAttribute('id', categories[cat][0] + categories[cat][1][x]);
                     icon.setAttribute('src', 'images/' + categories[cat][2] + (('000' + categories[cat][1][x]).substr(categories[cat][3])) + '.png');
 
                     contain.appendChild(icon);
