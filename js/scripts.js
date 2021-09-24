@@ -62,6 +62,7 @@ function countEverything() {
   countBT4();
   countBT5();
   countBT6();
+  countBT7();
   countEX1();
   countST1();
   countST2();
@@ -114,6 +115,13 @@ function countBT6() {
   var total = $("#bt6 .flair").length;
 
   $('#counterbt6').html("<span class='cl'>Booster [BT-06] DOUBLE DIAMOND <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
+}
+
+function countBT7() {
+  var amount = $("#bt7 .selected").length;
+  var total = $("#bt7 .flair").length;
+
+  $('#counterbt7').html("<span class='cl'>Booster [BT-07] NEXT ADVENTURE <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
 }
 
 function countEX1() {
