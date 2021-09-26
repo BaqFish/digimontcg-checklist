@@ -115,7 +115,6 @@ function getBT3(){
 
     -1,
 
-    200,
     201,
     202,
     203,
@@ -133,6 +132,9 @@ function getBT3(){
     215,
     216,
     217,
+    218,
+    219,
+    220,
     ]
     return collection;
     }

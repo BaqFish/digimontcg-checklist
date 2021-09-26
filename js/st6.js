@@ -16,6 +16,12 @@ function getST6(){
     14,
     15,
     16,
+
+    -1,
+    
+    21,
+    22,
+    23,
     ]
     return collection;
     }
