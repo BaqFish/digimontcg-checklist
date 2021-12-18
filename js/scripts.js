@@ -112,7 +112,7 @@ function countEX1() {
   var amount = $("#ex1 .selected").length;
   var total = $("#ex1 .flair").length;
 
-  $('#counterex1').html("<span class='cl'>Bppster [EX-01] CLASSIC COLLECTION <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
+  $('#counterex1').html("<span class='cl'>Booster [EX-01] CLASSIC COLLECTION <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
 }
 
 function countPromo() {
