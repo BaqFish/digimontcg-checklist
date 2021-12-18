@@ -62,14 +62,7 @@ function countEverything() {
   countBT4();
   countBT5();
   countBT6();
-  countST1();
-  countST2();
-  countST3();
-  countST4();
-  countST5();
-  countST6();
-  countST7();
-  countST8();
+  countEX1();
   countPromo();
 }
 
@@ -115,60 +108,11 @@ function countBT6() {
   $('#counterbt6').html("<span class='cl'>Booster [BT-06] DOUBLE DIAMOND <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
 }
 
-function countST1() {
-  var amount = $("#st1 .selected").length;
-  var total = $("#st1 .flair").length;
+function countEX1() {
+  var amount = $("#ex1 .selected").length;
+  var total = $("#ex1 .flair").length;
 
-  $('#counterst1').html("<span class='cl'>Start Deck [ST-1] GAIA RED <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST2() {
-  var amount = $("#st2 .selected").length;
-  var total = $("#st2 .flair").length;
-
-  $('#counterst2').html("<span class='cl'>Start Deck [ST-2] COCYTUS BLUE  <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST3() {
-  var amount = $("#st3 .selected").length;
-  var total = $("#st3 .flair").length;
-
-  $('#counterst3').html("<span class='cl'>Start Deck [ST-3] HEAVEN'S YELLOW <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST4() {
-  var amount = $("#st4 .selected").length;
-  var total = $("#st4 .flair").length;
-
-  $('#counterst4').html("<span class='cl'>Start Deck [ST-4] GIGA GREEN <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST5() {
-  var amount = $("#st5 .selected").length;
-  var total = $("#st5 .flair").length;
-
-  $('#counterst5').html("<span class='cl'>Start Deck [ST-5] MUGEN BLACK <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST6() {
-  var amount = $("#st6 .selected").length;
-  var total = $("#st6 .flair").length;
-
-  $('#counterst6').html("<span class='cl'>Start Deck [ST-6] VENOM VIOLET <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST7() {
-  var amount = $("#st7 .selected").length;
-  var total = $("#st7 .flair").length;
-
-  $('#counterst7').html("<span class='cl'>Start Deck [ST-7] GALLANTMON <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
-}
-
-function countST8() {
-  var amount = $("#st8 .selected").length;
-  var total = $("#st8 .flair").length;
-
-  $('#counterst8').html("<span class='cl'>Start Deck [ST-8] ULFORCEVEEDRAMON <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
+  $('#counterex1').html("<span class='cl'>Bppster [EX-01] CLASSIC COLLECTION <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
 }
 
 function countPromo() {
