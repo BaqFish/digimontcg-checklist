@@ -12,6 +12,7 @@ loadPage = function () {
             ['bt5', getBT5(), 'BT5/BT5-', -3, 'flair'],
             ['bt6', getBT6(), 'BT6/BT6-', -3, 'flair'],
             ['bt7', getBT7(), 'BT7/BT7-', -3, 'flair'],
+            ['bt8', getBT8(), 'BT8/BT8-', -3, 'flair'],
             ['ex1', getEX1(), 'EX1/EX1-', -3, 'flair'],
             ['promo', getPromo(), 'Promo/P-', -3, 'flair']
         ];
