@@ -64,7 +64,9 @@ function countEverything() {
   countBT6();
   countBT7();
   countBT8();
+  countBT9();
   countEX1();
+  countEX2();
   countPromo();
 }
 
@@ -124,11 +126,25 @@ function countBT8() {
   $('#counterbt8').html("<span class='cl'>Booster [BT-08] NEW AWAKENING <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
 }
 
+function countBT9() {
+  var amount = $("#bt9 .selected").length;
+  var total = $("#bt9 .flair").length;
+
+  $('#counterbt9').html("<span class='cl'>Booster [BT-09] X RECORD <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
+}
+
 function countEX1() {
   var amount = $("#ex1 .selected").length;
   var total = $("#ex1 .flair").length;
 
   $('#counterex1').html("<span class='cl'>Booster [EX-01] CLASSIC COLLECTION <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
+}
+
+function countEX2() {
+  var amount = $("#ex2 .selected").length;
+  var total = $("#ex2 .flair").length;
+
+  $('#counterex2').html("<span class='cl'>Booster [EX-02] DIGITAL HAZARD <div class='counter'>" + amount + "/" + (total) + "</div> </span>");
 }
 
 function countPromo() {
